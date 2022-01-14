@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.xian_test">
    <application
-        android:label="xian_test"
+        android:label="User Contacts"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
