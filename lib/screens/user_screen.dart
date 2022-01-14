@@ -19,7 +19,7 @@ class _UserScreenState extends State<UserScreen> {
   List<UserData>? userData;
 
   getUsers() async {
-    UserResponse? response = await ApiProvider().getUsers();
+    UserResponse? response = await ApiProvider().getUsers(page: 2);
     if (mounted) {
       setState(() {
         userData = response!.data;
