@@ -25,13 +25,4 @@ class ApiProvider {
     }
   }
 
-  // Future getItems({int? itemGroupId}) async {
-  //   final response =
-  //       await ObjectFactory().apiClient.getItems(itemGroupId: itemGroupId);
-  //   if (response.statusCode == 200 || response.statusCode == 201) {
-  //     return (response.data[0]['Data']);
-  //   } else {
-  //     return null;
-  //   }
-  // }
 }

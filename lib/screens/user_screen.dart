@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:xian_test/models/user_model.dart';
 import 'package:xian_test/utils/api_provider.dart';
-import 'package:xian_test/utils/constants.dart';
 import 'package:xian_test/widgets/contact_card.dart';
 import 'package:xian_test/widgets/user_profile.dart';
 

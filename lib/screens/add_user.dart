@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:xian_test/utils/api_client.dart';
-import 'package:xian_test/utils/api_provider.dart';
 import 'package:xian_test/utils/constants.dart';
 
 class AddUser extends StatelessWidget {
